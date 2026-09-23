@@ -1,0 +1,83 @@
+{
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "editor.renderWhitespace": "boundary",
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "gitlens.currentLine.enabled": true,
+    "json.format.enable": true,
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    "git.autofetch": true,
+    "git.checkoutType": [
+        "local",
+        "remote",
+        "tags"
+    ],
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationAfterEveryPipeline",
+    "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "powershell.codeFormatting.useConstantStrings": true,
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.enableProfileLoading": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.integratedConsole.showOnStartup": false,
+    "[powershell]": {
+        "files.encoding": "utf8bom",
+        "files.autoGuessEncoding": true,
+     },
+    "terminal.integrated.fontFamily": "FiraCode NF",
+    "terminal.integrated.cursorStyle": "underline",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#171b21",
+        "terminal.foreground": "#E5E9F0",
+        "terminalCursor.background": "#E5E9F0",
+        "terminalCursor.foreground": "#E5E9F0",
+        "terminal.ansiBlack": "#2E3440",
+        "terminal.ansiBlue": "#EBCB8B",
+        "terminal.ansiBrightBlack": "#4C566A",
+        "terminal.ansiBrightBlue": "#EBCB8B",
+        "terminal.ansiBrightCyan": "#D08770",
+        "terminal.ansiBrightGreen": "#BF616A",
+        "terminal.ansiBrightMagenta": "#A3BE8C",
+        "terminal.ansiBrightRed": "#88C0D0",
+        "terminal.ansiBrightWhite": "#8FBCBB",
+        "terminal.ansiBrightYellow": "#5E81AC",
+        "terminal.ansiCyan": "#D08770",
+        "terminal.ansiGreen": "#BF616A",
+        "terminal.ansiMagenta": "#A3BE8C",
+        "terminal.ansiRed": "#88C0D0",
+        "terminal.ansiWhite": "#E5E9F0",
+        "terminal.ansiYellow": "#5E81AC"
+     },
+    "files.associations": {
+        "*.ps1": "powershell"
+    },
+    
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows_Terminal": {
+            "path": "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe"
+            
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "icon": "terminal-powershell" 
+        }
+    },
+}
